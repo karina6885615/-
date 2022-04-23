@@ -1,2 +1,16 @@
-hello, world!
-!!!
+1. pwd
+2.mkdir test
+3.cd test
+4.mkdir 1 2 3
+5.cd 1
+6.touch q.txt w.txt e.txt r.js t.js
+7.mkdir a s d
+8.ls-la
+9.cat>> q.txt (enter)
+10.hello, world!
+11.ctrl+c
+12.cd../
+13.mv 1/q.txt 2 ; mv 1/w.txt 2
+14.cp 1/e.txt 2 ;cp 1/r.js 2
+15.find./t.js
+16.tail -F q.txt|grep "hello"
